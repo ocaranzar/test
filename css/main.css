@@ -1,0 +1,11 @@
+body {
+    background: rgb(226,226,226);
+    background: linear-gradient(180deg, rgba(226,226,226,1) 0%, rgba(217,222,237,1) 60%, rgba(201,214,255,1) 100%);
+}
+
+#botones {
+    position: fixed;
+    top: 30%;
+    right: 10%;
+    width: 300px;
+}
