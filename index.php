@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="card-body">
-                    <form action="https://php-tga.herokuapp.com/test/db/conection.php" method="post">
+                    <form action="http://127.0.0.1:8080/test/db/conection.php" method="post">
                         <div class="input-group row row-cols-3 my-4">
                             <label for="nombre" class="form-label col text-end pe-5 fs-5">Nombre :</label>
                             <input type="text" class="form-control col-2 me-5 rounded-3" name="nombre" id="nombre" autofocus required>
