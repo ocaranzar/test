@@ -227,7 +227,7 @@ if ($conn->query($sql) === TRUE) {
   
   setcookie("todo", json_encode($todo), time() + 86400, "/");
   
-  header('Location: https://php-tga.herokuapp.com/view/view2.php');
+  header('Location: https://php-tga.herokuapp.com/test/view/view2.php');
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
 }
